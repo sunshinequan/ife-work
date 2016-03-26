@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Task-2</title>
+	<style type="text/css">
+	nav{
+		background-color: #505050;
+		width: 100%;
+		display: inline-block;
+	}
+	nav.brand{
+		float: left;
+		margin-left: 600px;
+	}
+	ul.nav-list{
+		float: right;
+		margin-right: 20px;
+	}
+	ul.nav-list li a{
+		color: #ffffff;
+	}
+	ul.nav-list li a.clicked{
+		color: #888888;
+	}
+	ul.nav-list li{
+		float: left;
+		margin-right: 30px;
+	}
+	div#passage{
+		background-color: #A0A0A0;
+		margin: 0 auto;
+		padding: 30px;
+	}
+	div#passage .box{
+		background-color: white;
+		margin-bottom: 30px;
+		padding: 30px;
+		box-shadow: 2px 2px 2px #030303;
+	}
+	div#passage h1{
+		font-size: 24px;
+	}
+	div#passage h2{
+		font-size: 18px;
+	}
+	div#passage h3{
+		font-size: 15px;
+		font-family: "DejaVu Sans Mono";
+		color: #A0A0A0;
+	}
+	.inbox-list{
+		font-size: 18px;
+		font-family: "Roboto";
+		color: #123456;
+	}
+	div .imgBox{	
+		margin: 20px;
+	}
+	div .inboxImg{
+		margin-left: 50px;
+	}
+	div .imgBox h3{
+		margin-left: 12px;
+	}
+	table th{
+		background-color: #1C1C1C;
+		color: white;
+		width: 500px;
+	}
+	.counts td{
+		background-color: #5C5C5C;
+		color: white;
+	}
+	.sidebar{
+		border-left: 6px solid #DEDEDE;
+		text-indent:  10px;
+	}
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<nav-brand><img src="logo.png" width="120px"/></nav-brand>
+			<nav-menu>
+				<ul class="nav-list">
+					<li><a href="">Link-1</a></li>
+					<li><a href="">Link-2</a></li>
+					<li><a href="">Link-3</a></li>
+					<li><a href="" class="clicked">Link-4</a></li>				
+				</ul>		
+			</nav-menu>
+		</nav>
+	</header>
+
+	<div id="passage">
+		<div class="box">
+			<h1>First Class Title</h1>
+			<h2>Second Class Title</h2>
+			<h3>Author:Zyd Date:Mar.25th</h3>
+			<p>
+				<a href="">Deep Learning</a> is a new area of Machine Learning research, which has been introduced with the objective of moving Machine Learning closer to one of its original goals: Artificial Intelligence. <br /> See these course notes for a brief introduction to Machine Learning for AI and an introduction to Deep Learning algorithms.
+			</p>
+			<img src="hogrider.jpg" width="200px">
+		</div>
+
+		<div class="box">
+			<h1>Another First Class Title</h1>
+			<h2>Another Second Class Title</h2>
+			<h3>Author:Yzd Date:Mar.25th</h3>
+			<p>
+				<a href="">Deep Learning</a> is a new area of Machine Learning research, which has been introduced with the objective of moving Machine Learning closer to one of its original goals: Artificial Intelligence. <br /> See these course notes for a brief introduction to Machine Learning for AI and an introduction to Deep Learning algorithms.
+			</p>
+			<img src="hogrider.jpg" width="200px">
+			<ul class="inbox-list">
+				<li>List item-1</li>
+				<li>List item-2</li>
+				<li>List item-3</li>
+			</ul>
+		</div>
+
+		<div class="box">
+			<h1>Picture List</h1>
+			<div class="imgBox">
+				<h3>Picture 1</h3>
+				<img src="hogrider.jpg" width="100px">
+			</div>
+			<div class="imgBox">
+				<h3>Picture 2</h3>
+				<img src="hogrider.jpg" width="100px">
+			</div>
+			<div class="imgBox">
+				<h3>Picture 3</h3>
+				<img src="hogrider.jpg" width="100px">
+			</div>
+			<div class="imgBox">
+				<h3>Picture 4</h3>
+				<img src="hogrider.jpg" width="100px">
+			</div>
+		</div>
+
+		<div class="box">
+			<h1>Lats First Class Title</h1>
+			<h2>Last Second Class Title</h2>
+			<h3>Author:Dzy Date:Mar.25th</h3>
+			<ol class="rank">
+				<li>rank-1</li>
+				<li>rank-2</li>
+				<li>rank-3</li>
+			</ol>
+			<h4>A table down here.</h4>
+			<table>
+				<tr>
+					<th>Header-1</th>
+					<th>Header-2</th>
+					<th>Header-3</th>
+				</tr>
+				<tr>
+					<td>Item content</td>
+					<td>Item content</td>
+					<td><a href="">Do something</a></td>
+				</tr>
+				<tr>
+					<td>Item content</td>
+					<td>Item content</td>
+					<td><a href="">Do something</a></td>
+				</tr>
+				<tr>
+					<td>Item content</td>
+					<td>Item content</td>
+					<td><a href="">Do something</a></td>
+				</tr>
+				<tr class="counts">	
+					<td>All counts</td>
+					<td colspan="2">1000</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="box">	
+			<h2 class="sidebar"><b>This is a sidebar</b></h2>
+		</div>
+	</div>
+	
+</body>
+</html>
