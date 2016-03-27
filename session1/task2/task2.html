@@ -1,81 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
 <title>Task-2</title>
-	<style type="text/css">
-	nav{
-		background-color: #505050;
-		width: 100%;
-		display: inline-block;
-	}
-	nav.brand{
-		float: left;
-		margin-left: 600px;
-	}
-	ul.nav-list{
-		float: right;
-		margin-right: 20px;
-	}
-	ul.nav-list li a{
-		color: #ffffff;
-	}
-	ul.nav-list li a.clicked{
-		color: #888888;
-	}
-	ul.nav-list li{
-		float: left;
-		margin-right: 30px;
-	}
-	div#passage{
-		background-color: #A0A0A0;
-		margin: 0 auto;
-		padding: 30px;
-	}
-	div#passage .box{
-		background-color: white;
-		margin-bottom: 30px;
-		padding: 30px;
-		box-shadow: 2px 2px 2px #030303;
-	}
-	div#passage h1{
-		font-size: 24px;
-	}
-	div#passage h2{
-		font-size: 18px;
-	}
-	div#passage h3{
-		font-size: 15px;
-		font-family: "DejaVu Sans Mono";
-		color: #A0A0A0;
-	}
-	.inbox-list{
-		font-size: 18px;
-		font-family: "Roboto";
-		color: #123456;
-	}
-	div .imgBox{	
-		margin: 20px;
-	}
-	div .inboxImg{
-		margin-left: 50px;
-	}
-	div .imgBox h3{
-		margin-left: 12px;
-	}
-	table th{
-		background-color: #1C1C1C;
-		color: white;
-		width: 500px;
-	}
-	.counts td{
-		background-color: #5C5C5C;
-		color: white;
-	}
-	.sidebar{
-		border-left: 6px solid #DEDEDE;
-		text-indent:  10px;
-	}
-	</style>
+
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<header>
@@ -139,7 +68,7 @@
 		</div>
 
 		<div class="box">
-			<h1>Lats First Class Title</h1>
+			<h1>Last First Class Title</h1>
 			<h2>Last Second Class Title</h2>
 			<h3>Author:Dzy Date:Mar.25th</h3>
 			<ol class="rank">
@@ -148,7 +77,7 @@
 				<li>rank-3</li>
 			</ol>
 			<h4>A table down here.</h4>
-			<table>
+			<table border="1">
 				<tr>
 					<th>Header-1</th>
 					<th>Header-2</th>
@@ -178,8 +107,82 @@
 
 		<div class="box">	
 			<h2 class="sidebar"><b>This is a sidebar</b></h2>
+			<form class="form">
+				<div class="text_field">
+					<div class="form_group">
+						<label class="group_name">Please input your e-mail address：</label>
+						<input type="email" value="Input your e-mail address" class="group_value">
+					</div>
+
+					<p class="tip">Follow the given format</p>
+				</div>
+
+				<div class="text_field">
+					<div class="form_group">
+						<lable class="group_name">Please input password：</lable>
+						<input type="password" maxlength="16" min="6" placeholder="Please input the password" class="group_value">
+					</div>
+
+					<div class="form_group">
+						<label class="group_name">Please input password again：</label>
+						<input type="password" maxlength="16" min="6" placeholder="Ensure the two inputs are the same" class="group_value">
+					</div>
+
+					<p class="tip">Password is limited into 6-16 letters or figures</p>
+				</div>
+
+
+				<div class="text_field">
+					<div class="form_group">
+						<label class="group_name">Sex：</label>
+						<div class="group_value">
+							<input type="radio" name="sex">Male
+							<input type="radio" name="sex">Female
+						</div>
+
+					</div>
+
+
+
+				<div class="form_group">
+					<label class="group_name">City：</label>
+					<div class="group_value">
+						<select>
+							<option>Beijing</option>
+							<option>Shanghai</option>
+							<option>Hangzhou</option>
+						</select>
+					</div>
+
+				</div>
+
+
+				<div class="form_group">
+					<label class="group_name">Hobbies：</label>
+					<div class="group_value">
+						<input type="checkbox">Sports
+						<input type="checkbox">Art
+						<input type="checkbox">Technology
+					</div>
+
+				</div>
+
+				<div class="form_group">
+					<label class="group_name">Personal description：</label>
+					<textarea rows="10" cols="100" class="group_value">Please say something about yourself</textarea>
+				</div>
+
+				</div>
+
+				<input class="submit_field" type="submit" value="Submit">
+
+			</form>
 		</div>
 	</div>
-	
+
+	<div class="footer">
+		版权所有©竟然有人
+	</div>
+
 </body>
 </html>

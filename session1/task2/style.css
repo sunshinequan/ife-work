@@ -1,0 +1,131 @@
+nav{
+    background-color: #505050;
+    width: 100%;
+    display: inline-block;
+}
+nav.brand{
+    float: left;
+    margin-left: 600px;
+}
+ul.nav-list{
+    float: right;
+    margin-right: 20px;
+}
+ul.nav-list li a{
+    color: #ffffff;
+}
+ul.nav-list li a.clicked{
+    color: #888888;
+}
+ul.nav-list li{
+    float: left;
+    margin-right: 30px;
+}
+div#passage{
+    background-color: #A0A0A0;
+    margin: 0 auto;
+    padding: 30px;
+}
+div#passage .box{
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 30px;
+    box-shadow: 2px 2px 2px #030303;
+}
+div#passage h1{
+    font-size: 24px;
+}
+div#passage h2{
+    font-size: 18px;
+}
+div#passage h3{
+    font-size: 15px;
+    font-family: "DejaVu Sans Mono";
+    color: #A0A0A0;
+}
+.inbox-list{
+    font-size: 18px;
+    font-family: "Roboto";
+    color: #123456;
+}
+div .imgBox{
+    margin: 20px;
+}
+div .inboxImg{
+    margin-left: 50px;
+}
+div .imgBox h3{
+    margin-left: 12px;
+}
+table th{
+    background-color: #1C1C1C;
+    color: white;
+    width: 500px;
+}
+.counts td{
+    background-color: #5C5C5C;
+    color: white;
+}
+.sidebar{
+    border-left: 6px solid #DEDEDE;
+    text-indent:  10px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.form{
+    font-size: 16px;
+    font-family: "sans-serif";
+    text-align: center;
+}
+.text_field{
+    overflow: hidden;
+    margin-bottom: 10px;
+
+
+}
+.form_group{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.form_group .group_name{
+
+    float: left;
+    text-align: right;
+    width: 400px;
+}
+.group_value{
+    text-align: left;
+    width: 400px;
+    display: inline-block;
+}
+
+.text_field p {
+    float: right;
+    text-align: left;
+    width: 430px;
+    color: grey;
+
+}
+
+.tip{
+    text-align: right;
+
+}
+.submit_field {
+    height: 40px;
+    background: blue;
+    display: block;
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+}
+.footer {
+    height: 70px;
+    color: #fff;
+    background-color: #000;
+    line-height: 70px;
+    text-align: center;
+}
